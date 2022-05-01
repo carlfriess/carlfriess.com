@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Carl Friess</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:ital,wght@0,400;0,600;1,400&family=Roboto:wght@100&display=swap">
+    <link rel="stylesheet" href="https://eiffel-guide.com/Anders-font/styles.css">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/christmas-squad-personal-use">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ionicons-css@5.2.1/dist/icon.css">
+
+    <style>
+        .has-bg-img {
+            background-size: cover;
+            background-position: center;
+        }
+
+        .has-bg-gradient {
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.65) 100%);
+        }
+
+        .title-card {
+            background-image: url("img/background.jpg");
+        }
+
+        .title-card .card-content {
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+        }
+
+        .title-card h1 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+        }
+
+        .title-card h3 {
+            font-family: 'Raleway', sans-serif;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 1rem;
+        }
+
+        .project-card .card-image, .project-card .card-content {
+            font-family: 'Raleway', sans-serif;
+            height: 280px;
+            overflow: hidden;
+        }
+
+        .project-card .overlay-text {
+            text-shadow: 0 0 6px black;
+        }
+
+        .christmas h2 {
+            font-family: 'Christmas Squad - Personal Use', sans-serif;
+        }
+
+        .eiffel-guide {
+            background-color: #263238;
+            color: #E0E0E0;
+            text-shadow: 1px 2px rgba(0, 0, 0, 0.3);
+        }
+
+        .eiffel-guide .content {
+            color: #E0E0E0;
+        }
+
+        .eiffel-guide h2 {
+            font-family: "Anders", sans-serif;
+            color: #E0E0E0;
+        }
+
+        .eiffel-guide .eiffel-tower {
+            height: 220px;
+            margin-top: 40px;
+            border-bottom: solid #4a616d 4px;
+        }
+
+        .eiffel-guide .eiffel-tower img {
+            height: 100%;
+            margin-top: 4px;
+        }
+
+        .overtunes h2 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 100;
+            font-size: 36px;
+            background: -webkit-linear-gradient(60deg, rgba(51, 205, 95, 1) 10%, rgba(12, 96, 238, 1) 50%, rgba(239, 71, 58, 1) 90%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            width: 200px;
+            text-align: center;
+            color: #444444;
+            margin: 0 auto 0;
+        }
+
+        .foot {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <div class="card title-card has-bg-img">
+            <div class="card-content">
+                <div class="content has-text-centered has-text-white">
+                    <figure class="image is-128x128 is-inline-block mt-4 mb-0">
+                        <img class="is-rounded" src="img/profile.jpg" alt="Profile picture">
+                    </figure>
+                    <br/>
+                    <h1 class="m-0 has-text-white">Carl Friess</h1>
+                    <h3 class="m-0 has-text-white">Software Engineer</h3>
+                    <br/>
+                    <a class="social-icon icon-logo-github is-inline-block is-size-4 my-4 mx-2 has-text-white"
+                       href="https://github.com/carlfriess"></a>
+                    <a class="social-icon icon-logo-linkedin is-inline-block is-size-4 my-4 mx-2 has-text-white"
+                       href="https://linkedin.com/in/carlfriess"></a>
+                    <a class="social-icon icon-mail is-inline-block is-size-4 my-4 mx-2 has-text-white"
+                       href="mailto:carl@carlfriess.com"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section pt-0">
+    <div class="container is-max-desktop">
+
+        <div class="columns">
+            <div class="column">
+                <div class="card project-card has-bg-img" style="background-image: url('img/phase.jpg');">
+                    <a class="card-content content is-block has-text-centered has-bg-gradient"
+                       href="https://github.com/carlfriess/phase">
+                        <div class="columns is-flex is-vcentered m-0" style="height: 100%;">
+                            <div class="column p-0">
+                                <figure class="image is-centered is-inline-block m-0" style="width: 80%;">
+                                    <img src="img/phase-one.svg" alt="phaseONE">
+                                </figure>
+                                <div class="overlay-text has-text-white-ter">
+                                    Open-source Smart Watch
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card project-card christmas has-bg-img" style="background-image: url('img/christmas.jpg');">
+                    <a class="card-content content is-block has-text-centered has-bg-gradient has-text-white-ter"
+                       href="https://github.com/carlfriess/Christmas2021">
+                        <div class="columns is-flex is-vcentered m-0" style="height: 100%;">
+                            <div class="column p-0">
+                                <h2 class="has-text-white-ter my-4 is-size-1-widescreen is-size-2-tablet is-size-3-mobile"
+                                    style="font-weight: 400;">
+                                    (Christmas Cards)
+                                </h2>
+                                Animated electronic Christmas Card
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="column">
+                <div class="card project-card has-bg-img"
+                     style="background-image: url('img/concept-art.png'); background-position: bottom;">
+                    <a class="card-content is-block has-text-centered has-bg-gradient"
+                       href="https://surprisedturtle.studio">
+                        <figure class="image is-inline-block" style="width: 85%; max-width: 240px;">
+                            <img src="img/seven-dwarfs-logo-inverted.png" alt="Seven Dwarfs: Legends Untold">
+                        </figure>
+                        <div class="overlay-text has-text-white-ter">
+                            Award-winning action-RPG indie game based on the fairytale.
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="column">
+                <div class="card project-card has-bg-img" style="background-image: url('img/tunnel.jpg');">
+                    <a class="card-content is-block has-text-centered has-bg-gradient"
+                       href="https://www.boringcompany.com">
+                        <div class="columns is-flex is-vcentered m-0" style="height: 100%;">
+                            <div class="column p-0">
+                                <figure class="image is-centered is-inline-block is-128x128">
+                                    <img src="img/tbc-logo.png" alt="The Boring Company">
+                                </figure>
+                                <div class="overlay-text has-text-white-ter">
+                                    Former Embedded Software Engineer
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card project-card has-bg-img" style="background-image: url('img/swissloop.jpg');">
+                    <a class="card-content is-block has-text-centered has-bg-gradient" href="https://swissloop.ch">
+                        <div class="columns is-flex is-vcentered m-0" style="height: 100%;">
+                            <div class="column p-0">
+                                <figure class="image is-inline-block is-128x128">
+                                    <img src="img/swissloop-logo-negative.png" alt="Swissloop">
+                                </figure>
+                                <div class="overlay-text has-text-white-ter">
+                                    Co-founder and former President
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="column">
+                <div class="card project-card">
+                    <a class="card-content content is-block has-text-centered"
+                       href="https://itunes.apple.com/us/app/mensa-eth-zurich/id1136055229">
+                        <figure class="image is-inline-block is-64x64 mt-0 mx-3 mb-3" style="vertical-align: middle;">
+                            <img src="img/mensa-app-icon.png" alt="App Icon">
+                        </figure>
+                        <h2 class="m-0" style="font-weight: 400;">Mensa ETH Z&uuml;rich</h2>
+                        <figure class="image is-inline-block m-0" style="width: 50%">
+                            <img src="img/mensa-app.png" alt="Screenshot">
+                        </figure>
+                    </a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card project-card eiffel-guide">
+                    <div class="card-image">
+                        <div class="eiffel-tower">
+                            <img src="img/eiffel-tower.svg" alt="Eiffel Tower"/>
+                        </div>
+                    </div>
+                    <a class="card-content content is-block is-overlay has-text-centered"
+                       href="https://eiffel-guide.com">
+                        <div class="columns is-flex is-vcentered m-0" style="height: 100%;">
+                            <div class="column p-0">
+                                <h2>Eiffel Syntax Guide</h2>
+                                A simple website providing a basic reference manual for getting started with the Eiffel
+                                programming language.
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="column">
+                <div class="card project-card has-bg-img" style="background-image: url('img/doritos-screenshot.png');">
+                    <a class="card-content content is-block has-text-centered has-bg-gradient"
+                       href="https://github.com/carlfriess/DoritOS">
+                        <div class="columns is-flex is-vcentered m-0" style="height: 100%;">
+                            <div class="column p-0">
+                                <figure class="image is-centered is-inline-block m-0"
+                                        style="width: 160px; height: 120px;">
+                                    <img src="img/doritos-logo.png" alt="DoritOS">
+                                </figure>
+                                <div class="overlay-text has-text-white-ter">
+                                    A micro-kernel multi-core operating system based on the Barrelfish CPU-driver.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card project-card overtunes">
+                    <div class="card-content has-text-centered">
+                        <div class="columns is-flex is-vcentered m-0" style="height: 100%;">
+                            <div class="column p-0">
+                                <h2>OVERTUNES</h2>
+                                <figure class="image is-inline-block m-1" style="max-width: 340px;">
+                                    <img src="img/overtunes.png" alt="Overtunes Platform">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section pt-0 foot has-text-centered has-text-grey">
+    <b>Carl Friess</b> | <a class="has-text-grey" href="mailto:carl@carlfriess.com">carl@carlfriess.com</a>
+</section>
+
+</body>
+</html>
